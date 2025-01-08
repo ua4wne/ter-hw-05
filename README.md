@@ -22,33 +22,33 @@
 
 1. Возьмите ваш GitHub-репозиторий с выполненным ДЗ 4 в ветке 'terraform-04' и сделайте из него ветку ['terraform-05'](https://github.com/ua4wne/ter-hw-04/tree/terraform-05).
 
-![branch3](branch5.png)
-![checkout](checkout.png)
+![branch3](task2/branch5.png)
+![checkout](task2/checkout.png)
 
 2. Повторите демонстрацию лекции: настройте YDB, S3 bucket, yandex service account, права доступа и мигрируйте state проекта в S3 с блокировками. Предоставьте скриншоты процесса в качестве ответа.
 
-![service_acc](service_acc.png)
-![new_key](new_key.png)
-![s3](s3.png)
-![s3_acl](s3_acl.png)
-![init](init.png)
+![service_acc](task2/service_acc.png)
+![new_key](task2/new_key.png)
+![s3](task2/s3.png)
+![s3_acl](task2/s3_acl.png)
+![init](task2/init.png)
 
 >Выполним команду terraform apply, видим, что файл terraform.tfstate появился в нашем бакете S3
 
-![tfstate](tfstate.png)
+![tfstate](task2/tfstate.png)
 
 > Настраиваем YDB
 
-![ydb](ydb.png)
-![ydb_acl](ydb_acl.png)
-![table](table.png)
+![ydb](task2/ydb.png)
+![ydb_acl](task2/ydb_acl.png)
+![table](task2/table.png)
 
 3. Закоммитьте в ветку 'terraform-05' все изменения.
 4. Откройте в проекте terraform console, а в другом окне из этой же директории попробуйте запустить terraform apply.
 
-![reconfig](reconfig.png)
-![console](console.png)
-![plan](plan.png)
+![reconfig](task2/reconfig.png)
+![console](task2/console.png)
+![plan](task2/plan.png)
 
 5. Пришлите ответ об ошибке доступа к state.
 
@@ -56,7 +56,7 @@
 
 6. Принудительно разблокируйте state. Пришлите команду и вывод.
 
-![unlock](unlock.png)
+![unlock](task2/unlock.png)
 
 ## Задача 3
 
