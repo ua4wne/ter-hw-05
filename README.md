@@ -56,6 +56,8 @@
 
 6. Принудительно разблокируйте state. Пришлите команду и вывод.
 
+>`terraform force-unlock c3fadfce-17bd-c90d-b436-692c7b0a0d1b`
+
 ![unlock](task2/unlock.png)
 
 ## Задача 3
