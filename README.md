@@ -44,4 +44,22 @@
 ![table](task2/table.png)
 
 3. Закоммитьте в ветку 'terraform-05' все изменения.
+4. Откройте в проекте terraform console, а в другом окне из этой же директории попробуйте запустить terraform apply.
+
+![reconfig](task2/reconfig.png)
+![console](task2/console.png)
+![plan](task2/plan.png)
+
+5. Пришлите ответ об ошибке доступа к state.
+
+>Error message: operation error DynamoDB: PutItem, https response error StatusCode: 400, RequestID: bfab7804-4815-43d5-bd7f-1fef87b38c4d, ConditionalCheckFailedException: Condition not satisfied
+
+6. Принудительно разблокируйте state. Пришлите команду и вывод.
+
+![unlock](task2/unlock.png)
+
+## Задача 3
+
+1. Сделайте в GitHub из ветки 'terraform-05' новую ветку 'terraform-hotfix'.
+
 
