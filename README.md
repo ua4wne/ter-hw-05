@@ -62,4 +62,8 @@
 
 1. Сделайте в GitHub из ветки 'terraform-05' новую ветку 'terraform-hotfix'.
 
+>`git checkout -b terraform-hotfix`
+
+![hotfix](task3/hotfix.png)
+
 
